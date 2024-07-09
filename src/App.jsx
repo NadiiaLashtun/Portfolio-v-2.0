@@ -1,12 +1,14 @@
 import "./App.css";
 import HeroPage from "./components/Pages/HeroPage";
 import AboutPage from "./components/Pages/AboutPage";
+import SkillsPage from "./components/Pages/SkillsPage";
 
 function App() {
   return (
     <>
       <HeroPage />
       <AboutPage />
+      <SkillsPage />
     </>
   );
 }
