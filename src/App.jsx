@@ -2,7 +2,8 @@ import "./App.css";
 import HeroPage from "./components/Pages/HeroPage";
 import AboutPage from "./components/Pages/AboutPage";
 import SkillsPage from "./components/Pages/SkillsPage";
-import Portfolio from "./components/Pages/Portfolio";
+import PortfolioPage from "./components/Pages/PortfolioPage";
+import TeamProjectsPage from "./components/Pages/TeamProjectsPage";
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       <HeroPage />
       <AboutPage />
       <SkillsPage />
-      <Portfolio />
+      <PortfolioPage />
+      <TeamProjectsPage />
     </>
   );
 }
