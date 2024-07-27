@@ -45,6 +45,14 @@
     line-height: 1.5;
     background-color: #efeeec;
   }
+
+  .h2-title {
+    @apply font-Amsterdam-four text-[110px] leading-[2.5] text-brand-color;
+  }
+
+  .h3-title {
+    @apply mb-20 font-Montserrat-Alternates font-bold text-4xl;
+  }
 }
 
 * {

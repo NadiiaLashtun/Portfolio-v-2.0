@@ -27,9 +27,7 @@ function AboutPage() {
       </div>
 
       <div className='w-1/2'>
-        <h2 className='font-Amsterdam-four text-[140px] leading-[2.5] text-brand-color '>
-          About
-        </h2>
+        <h2 className='h2-title'>About</h2>
         <BackgroundText text='about' top='-10%' left='62%' />
         <div className='flex gap-10 text-left'>
           <p>
@@ -42,7 +40,7 @@ function AboutPage() {
             tristique aliquet est, quis aliquam eros volutdf. Proin accumsan
             augue ac libero rhoncus, vel mattis dolor dictum.  rem ipsum dolor
           </p>
-          <p className='text-brand-color text-[140px]'>/</p>
+          <p className='text-brand-color text-[110px]'>/</p>
         </div>
       </div>
     </section>

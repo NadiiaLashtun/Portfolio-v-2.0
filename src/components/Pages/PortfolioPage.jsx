@@ -8,12 +8,10 @@ import BackgroundSquare from "../UI/BackgroundSquare";
 function Portfolio() {
   return (
     <section className='relative pt-[120px] pb-[60px] px-[40px] overflow-x-hidden'>
-      <h3 className=' mb-20 font-Montserrat-Alternates font-bold text-4xl'>
-        Portfolio
-      </h3>
+      <h3 className='h3-title'>Portfolio</h3>
 
       <div className='relative flex flex-col items-center gap-32'>
-        <h2 className='absolute right-[1%] top-[32%] font-Amsterdam-four text-[140px] text-right text-brand-color'>
+        <h2 className='h2-title absolute right-[1%] top-[32%] text-right'>
           Portfolio <br /> <span className='font-Montserrat'>/</span>
         </h2>
         <BackgroundText text='portfolio' left='57%' top='22%' />

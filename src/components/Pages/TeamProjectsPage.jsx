@@ -9,9 +9,9 @@ function TeamProjects() {
         <BackgroundSquare width='100%' height='100%' />
       </div>
 
-      <h2 className='font-Montserrat-Alternates font-bold text-3xl mb-20'>
+      <h3 className='h3-title'>
         <span className='text-brand-color'>Design &</span> Team projects
-      </h2>
+      </h3>
       <div className='flex justify-center gap-6'>
         {TeamProjectsInfo.map((project, index) => {
           return (
