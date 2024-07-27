@@ -4,6 +4,8 @@ import AboutPage from "./components/Pages/AboutPage";
 import SkillsPage from "./components/Pages/SkillsPage";
 import PortfolioPage from "./components/Pages/PortfolioPage";
 import TeamProjectsPage from "./components/Pages/TeamProjectsPage";
+import ContactsPage from "./components/Pages/ContactsPage";
+import Footer from "./components/Pages/Footer";
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       <SkillsPage />
       <PortfolioPage />
       <TeamProjectsPage />
+      <ContactsPage />
+      <Footer />
     </>
   );
 }

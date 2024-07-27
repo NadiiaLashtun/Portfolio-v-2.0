@@ -3,6 +3,8 @@ import VSCode from "../../assets/vs-code.png";
 import Figma from "../../assets/figma.png";
 import PS from "../../assets/PS.png";
 import PR from "../../assets/PR.png";
+import BackgroundText from "../UI/BackgroundText";
+import BackgroundSquare from "../UI/BackgroundSquare";
 
 const skills1 = [
   { name: "HTML+CSS", count: "90%" },
@@ -20,16 +22,21 @@ const skills2 = [
 
 function SkillsPage() {
   return (
-    <section className='p-[60px] border-t border-black font-Montserrat-Alternates   '>
+    <section className='relative p-[60px] font-Montserrat-Alternates'>
+      <div className='w-1/3 h-[1px] absolute top-0 left-1/2 -translate-x-1/2 bg-black'></div>
       <div className='flex justify-center gap-20 mb-14'>
         <div className='space-y-5'>
-          {skills1.map((skill) => {
-            return <Skill name={skill.name} percent={skill.count} />;
+          {skills1.map((skill, index) => {
+            return (
+              <Skill name={skill.name} percent={skill.count} key={index} />
+            );
           })}
         </div>
         <div className='space-y-5'>
-          {skills2.map((skill) => {
-            return <Skill name={skill.name} percent={skill.count} />;
+          {skills2.map((skill, index) => {
+            return (
+              <Skill name={skill.name} percent={skill.count} key={index} />
+            );
           })}
         </div>
       </div>
@@ -43,7 +50,13 @@ function SkillsPage() {
         </div>
       </div>
 
-      <h2 className='text-[140px] text-left font-bold'>Skills</h2>
+      <h2 className='absolute left-0 bottom-[-10%] text-[140px] text-left font-bold'>
+        Skills
+      </h2>
+      <BackgroundText text='skills' bottom='-12%' />
+      <div className='absolute -bottom-[16%] left-0 w-[20%] h-[40%]'>
+        <BackgroundSquare />
+      </div>
     </section>
   );
 }

@@ -6,7 +6,9 @@ export default {
       colors: {
         "primary-color": "#EFEEEC",
         "brand-color": "#E2A567",
+        "brand-dark-color": "#3D3D92",
         "brand-lite-color": "#efd6c166",
+        "secondary-color": "#ECDFD2",
         "text-color": "#100E0C",
         "text-white-color": "#ffffff59",
       },
@@ -41,6 +43,23 @@ export default {
           "Times New Roman",
           "serif",
         ],
+      },
+
+      animation: {
+        "animate-bounce": "bounce 1s 5",
+      },
+
+      keyframes: {
+        bounce: {
+          "0%, 100%": {
+            transform: "translateX(0)",
+            animationTimingFunction: "cubic-bezier(0.8, 0, 1, 1)",
+          },
+          "50%": {
+            transform: "translateX(25%)",
+            animationTimingFunction: "cubic-bezier(0, 0, 0.2, 1)",
+          },
+        },
       },
     },
   },
