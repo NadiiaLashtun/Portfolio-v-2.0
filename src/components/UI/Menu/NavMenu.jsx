@@ -1,12 +1,21 @@
 import NavItem from "./NavItem";
+import Burger from "/src/assets/menu-button.svg?react";
+
 function NavMenu() {
   return (
-    <div className='flex justify-end gap-9 transition'>
-      <NavItem caption='About me' />
-      <NavItem caption='Skills' />
-      <NavItem caption='Portfolio' />
-      <NavItem caption='Contacts' />
-    </div>
+    <>
+      <div className='hidden md:flex justify-end gap-9 transition '>
+        <NavItem caption='About me' />
+        <NavItem caption='Skills' />
+        <NavItem caption='Portfolio' />
+        <NavItem caption='Contacts' />
+      </div>
+      <div className='flex justify-end md:hidden'>
+        <Burger
+          className={`w-full h-full text-orange-400 hover:text-lime-500 transition-colors duration-300`}
+        />
+      </div>
+    </>
   );
 }
 
