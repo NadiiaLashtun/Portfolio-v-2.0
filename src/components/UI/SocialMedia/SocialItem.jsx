@@ -1,14 +1,9 @@
-/*import Telegram from "/src/assets/telegram.svg";*/
-
-function SocialItem({ name, icon, color }) {
-  /*console.log(name);
-  console.log(icon);
-  console.log(color);*/
-
+function SocialItem({ name, Icon, color, hoverColor }) {
   return (
-    <div className='w-7 h-7'>
-      <img src={icon} alt={name} />
-      {/*<MyIcon style={{ fill: color, stroke: color }} /> style={{ fill: color, stroke: color }}*/}
+    <div className='w-7 h-7 group'>
+      <Icon
+        className={`w-full h-full text-${color} group-hover:text-${hoverColor} transition-colors duration-300`}
+      />
     </div>
   );
 }

@@ -1,22 +1,27 @@
 import SocialItem from "./SocialItem";
+import LinkedIn from "/src/assets/linkedin.svg?react";
+import GitHub from "/src/assets/github.svg?react";
+import Telegram from "/src/assets/telegram.svg?react";
+import Facebook from "/src/assets/facebook.svg?react";
 
 const SocialMedia = [
-  { name: "LinkedIn", icon: "/src/assets/linkedin.svg" },
-  { name: "GitHub", icon: "/src/assets/github.svg" },
-  { name: "Telegram", icon: "/src/assets/telegram.svg" },
-  { name: "Facebook", icon: "/src/assets/facebook.svg" },
+  { name: "LinkedIn", icon: LinkedIn },
+  { name: "GitHub", icon: GitHub },
+  { name: "Telegram", icon: Telegram },
+  { name: "Facebook", icon: Facebook },
 ];
 
-function SocialList({ color }) {
+function SocialList({ color, hoverColor }) {
   return (
-    <div className='flex gap-4 text-blue-500'>
+    <div className='flex gap-4'>
       {SocialMedia.map((item, index) => {
         return (
           <SocialItem
             name={item.name}
-            icon={item.icon}
+            Icon={item.icon}
             key={index}
             color={color}
+            hoverColor={hoverColor}
           />
         );
       })}

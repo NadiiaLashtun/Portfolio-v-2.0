@@ -4,11 +4,11 @@ function Button({ caption, flip = false }) {
   return (
     <button
       className={`${flip ? "-scale-x-100" : ""}
-        group flex gap-4 border-0 drop-shadow-sm font-Amsterdam-four text-3xl duration-500 hover:text-brand-color`}
+        group flex gap-4 border-0 drop-shadow-black font-Amsterdam-four text-3xl duration-500 hover:text-brand-color`}
     >
       <div className={`${flip ? "-scale-x-100" : ""}`}>{caption}</div>
       <img
-        className='w-8 h-8 shadow-sm group-hover:animate-bounce'
+        className='w-8 h-8 group-hover:animate-bounce'
         src={Arrow}
         alt='Arrow button'
       />
