@@ -48,7 +48,7 @@
   }
 
   .h2-title {
-    @apply font-Amsterdam-four text-[110px] leading-[2.5] text-brand-color;
+    @apply font-Amsterdam-four text-[90px] sm:text-[100px] md:text-[110px] leading-[2.5] text-brand-color;
   }
 
   .h3-title {
