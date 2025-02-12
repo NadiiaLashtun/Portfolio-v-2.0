@@ -5,10 +5,10 @@ import Mail from "../../assets/mail.svg";
 
 function ContactsPage() {
   return (
-    <section className='relative px-16 pt-16 bg-brand-color overflow-x-hidden -z-10'>
+    <section className='relative px-16 pt-16 bg-brand-color -z-10'>
       <div className='w-1/3 h-[1px] absolute top-[60px] left-1/2 -translate-x-1/2 bg-black'></div>
       <div className='flex items-start pt-7'>
-        <div className='grow bg-black w-full'>
+        <div className='grow w-full'>
           <div className='translate-x-[55%]'>
             <SocialList color='text-black' />
           </div>

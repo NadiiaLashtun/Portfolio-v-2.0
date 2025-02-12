@@ -7,14 +7,14 @@ import BackgroundSquare from "../UI/BackgroundSquare";
 
 function Portfolio() {
   return (
-    <section className='relative pt-[120px] pb-[60px] px-[40px] overflow-x-hidden'>
+    <section className='relative pt-[120px] pb-[60px] px-[40px]'>
       <h3 className='h3-title'>Portfolio</h3>
 
       <div className='relative flex flex-col items-center gap-32'>
         <h2 className='h2-title absolute right-[1%] top-[32%] text-right'>
           Portfolio <br /> <span className='font-Montserrat'>/</span>
         </h2>
-        <BackgroundText text='portfolio' left='57%' top='22%' />
+        <BackgroundText text='portfolio' left='55%' top='22%' />
         <ProjectCard />
         <ProjectCard flip={true} />
         <ProjectCard />

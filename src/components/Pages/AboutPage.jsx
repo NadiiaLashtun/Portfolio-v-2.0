@@ -6,7 +6,7 @@ import ArrowDown from "../../assets/arrow-down.svg";
 
 function AboutPage() {
   return (
-    <section className='flex gap-20 max-h-full p-[120px] relative overflow-hidden'>
+    <section className='flex gap-20 max-h-full p-[120px] relative'>
       <div className='absolute top-[8%] left-0 w-[50%] h-[50%]'>
         <BackgroundSquare />
       </div>
@@ -28,7 +28,7 @@ function AboutPage() {
 
       <div className='w-1/2'>
         <h2 className='h2-title'>About</h2>
-        <BackgroundText text='about' top='-10%' left='62%' />
+        <BackgroundText text='about' top='-10%' left='55%' />
         <div className='flex gap-10 text-left'>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
