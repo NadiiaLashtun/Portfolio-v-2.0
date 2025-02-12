@@ -1,6 +1,6 @@
 function Skill({ name, percent }) {
   return (
-    <div className='flex flex-col gap-2 w-80'>
+    <div className='flex flex-col gap-2 w-60 lg:w-80'>
       <div className='flex justify-between gap-5'>
         <span>{name}</span>
         <span>{percent}</span>

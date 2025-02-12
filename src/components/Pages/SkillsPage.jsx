@@ -24,7 +24,8 @@ function SkillsPage() {
   return (
     <section className='relative p-[60px] font-Montserrat-Alternates'>
       <div className='w-1/3 h-[1px] absolute top-0 left-1/2 -translate-x-1/2 bg-black'></div>
-      <div className='flex justify-center gap-20 mb-14'>
+
+      <div className='flex flex-wrap justify-center gap-5 md:gap-20 mb-14 pt-40 md:pt-0'>
         <div className='space-y-5'>
           {skills1.map((skill, index) => {
             return (
@@ -50,11 +51,11 @@ function SkillsPage() {
         </div>
       </div>
 
-      <h2 className='absolute left-0 bottom-[-10%] text-[140px] text-left font-bold'>
+      <h2 className='absolute left-0 top-[3%] md:top-[70%] bottom-[-12%] md:bottom-[-10%] text-[110px] md:text-[140px] text-left font-bold'>
         Skills
       </h2>
       <BackgroundText text='skills' bottom='-12%' />
-      <div className='absolute -bottom-[16%] left-0 w-[20%] h-[40%]'>
+      <div className='absolute -bottom-[16%] left-0 w-[20%] h-[20%] md:h-[40%]'>
         <BackgroundSquare />
       </div>
     </section>
