@@ -1,5 +1,4 @@
 import ProjectCard from "../UI/ProjectCard";
-import ProjectCardRight from "../UI/ProjectCardRight";
 import Img from "../../assets/img.png";
 import Button from "../UI/Button";
 import BackgroundText from "../UI/BackgroundText";
@@ -11,7 +10,7 @@ function Portfolio() {
       <h3 className='h3-title'>Portfolio</h3>
 
       <div className='relative flex flex-col items-center gap-32'>
-        <h2 className='h2-title absolute right-[1%] top-[32%] text-right'>
+        <h2 className='h2-title absolute right-[1%] top-[29%] text-right'>
           Portfolio <br /> <span className='font-Montserrat'>/</span>
         </h2>
         <BackgroundText text='portfolio' left='55%' top='22%' />
@@ -20,7 +19,7 @@ function Portfolio() {
         <ProjectCard />
       </div>
       <div className='inline-block mx-auto pt-20'>
-        <Button caption='More projects' />
+        <Button caption='More projects' active={false} />
       </div>
       <div className=' absolute bottom-[10%] left-[2%] w-[20%] h-[35%]'>
         <BackgroundSquare width='100%' height='100%' />
