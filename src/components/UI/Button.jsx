@@ -10,7 +10,9 @@ function Button({ caption, flip = false, active = true }) {
       }
         group flex gap-4 border-0 drop-shadow-black font-Amsterdam-four text-3xl  `}
     >
-      <div className={`${flip ? "-scale-x-100" : ""}`}>{caption}</div>
+      <div className={`${flip ? "-scale-x-100" : ""} text-nowrap`}>
+        {caption}
+      </div>
       <img
         className={`${active ? "group-hover:animate-bounce" : ""} w-8 h-8`}
         src={Arrow}

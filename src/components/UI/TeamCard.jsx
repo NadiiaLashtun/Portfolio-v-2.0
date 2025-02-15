@@ -2,9 +2,8 @@ import Button from "./Button";
 import HorLine from "../../assets/hor-line.svg";
 
 function TeamCard({ title, img, descr, netlify, github }) {
-  console.log(netlify);
   return (
-    <div className='flex flex-col justify-center w-1/3'>
+    <div className='flex flex-col items-center w-[90%] sm:w-1/3'>
       <div className='relative mb-6 max-w-[433px] max-h-[326px] border border-gray-800 shadow-lg cursor-pointer'>
         <a href={netlify} target='_blank'>
           <img

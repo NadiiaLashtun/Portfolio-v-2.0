@@ -12,7 +12,7 @@ function TeamProjects() {
       <h3 className='h3-title'>
         <span className='text-brand-color'>Design &</span> Team projects
       </h3>
-      <div className='flex justify-center gap-6'>
+      <div className='flex justify-center gap-14 sm:gap-8 flex-wrap'>
         {TeamProjectsInfo.map((project, index) => {
           return (
             <TeamCard
