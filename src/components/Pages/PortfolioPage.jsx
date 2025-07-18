@@ -6,7 +6,10 @@ import BackgroundSquare from "../UI/BackgroundSquare";
 
 function Portfolio() {
   return (
-    <section className='relative pt-[120px] pb-[60px] px-[40px]'>
+    <section
+      className='relative pt-[120px] pb-[60px] px-[40px]'
+      id='portfolio-page'
+    >
       <h3 className='h3-title'>Portfolio</h3>
 
       <div className='relative flex flex-col items-center gap-32'>

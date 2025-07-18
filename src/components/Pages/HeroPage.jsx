@@ -38,7 +38,7 @@ function HeroPage() {
             </span>
             <br />
             <span className='drop-shadow-black'>&</span>
-            <br />{" "}
+            <br />
             <span className='text-xl md:text-1xl lg:text-3xl'>
               UX/UI designer
             </span>

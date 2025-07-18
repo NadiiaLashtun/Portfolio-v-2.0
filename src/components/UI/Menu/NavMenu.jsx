@@ -5,10 +5,10 @@ function NavMenu() {
   return (
     <>
       <div className='hidden md:flex justify-end gap-9 transition '>
-        <NavItem caption='About me' />
-        <NavItem caption='Skills' />
-        <NavItem caption='Portfolio' />
-        <NavItem caption='Contacts' />
+        <NavItem caption='About me' link='#about-page' />
+        <NavItem caption='Skills' link='#skills-page' />
+        <NavItem caption='Portfolio' link='#portfolio-page' />
+        <NavItem caption='Contacts' link='#contacts-page' />
       </div>
       <div className='flex justify-end md:hidden'>
         <Burger

@@ -5,7 +5,10 @@ import Mail from "../../assets/mail.svg";
 
 function ContactsPage() {
   return (
-    <section className='relative px-16 pt-16 bg-brand-color -z-10'>
+    <section
+      className='relative px-16 pt-16 bg-brand-color -z-10'
+      id='contacts-page'
+    >
       <div className='w-1/3 h-[1px] absolute top-[60px] left-1/2 -translate-x-1/2 bg-black'></div>
 
       <div className='flex justify-center pt-7'>

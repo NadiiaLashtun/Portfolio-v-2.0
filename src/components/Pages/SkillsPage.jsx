@@ -22,7 +22,10 @@ const skills2 = [
 
 function SkillsPage() {
   return (
-    <section className='relative p-[60px] font-Montserrat-Alternates'>
+    <section
+      className='relative p-[60px] font-Montserrat-Alternates'
+      id='skills-page'
+    >
       <div className='w-1/3 h-[1px] absolute top-0 left-1/2 -translate-x-1/2 bg-black'></div>
 
       <div className='flex flex-wrap justify-center gap-5 md:gap-20 mb-14 pt-40 md:pt-0'>
