@@ -31,12 +31,12 @@ function AboutPage() {
           className='max-w-72 '
           alt='My Photo'
         />
-        <Button
-          caption='Download CV'
-          onClick={() =>
-            (window.location.href = "/files/cv-nadiia-lashtun-eng.pdf")
-          }
-        />
+        <a
+          href='/files/Lashtun_Nadezhda_Frontend_Developer_eng_CV.pdf'
+          download='Lashtun_Nadezhda_Frontend_Developer_CV.pdf'
+        >
+          <Button caption='Download CV' />
+        </a>
       </div>
 
       <div className='w-full md:w-1/2'>
