@@ -26,13 +26,26 @@ function AboutPage() {
           ac libero rhoncus, vel mattis dolor dictum.
         </p>
 
-        <img src={AboutImg} className='max-w-72 ' alt='My Photo' />
-        <Button caption='Download CV' />
+        <img
+          src={AboutImg}
+          className='max-w-72 '
+          alt='My Photo'
+        />
+        <Button
+          caption='Download CV'
+          onClick={() =>
+            (window.location.href = "/files/cv-nadiia-lashtun-eng.pdf")
+          }
+        />
       </div>
 
       <div className='w-full md:w-1/2'>
         <h2 className='h2-title'>About</h2>
-        <BackgroundText text='about' top='-10%' left='55%' />
+        <BackgroundText
+          text='about'
+          top='-10%'
+          left='55%'
+        />
         <div className='flex gap-10 text-left'>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum

@@ -2,7 +2,7 @@ import Button from "./Button";
 import VertLine from "../../assets/vert-line.svg";
 import Img from "../../assets/img.png";
 
-function ProjectCard({ flip = false }) {
+function ProjectCard({ projectName, flip = false }) {
   let flipCard = {
     position: "null",
     textSide: "null",
@@ -38,11 +38,14 @@ function ProjectCard({ flip = false }) {
           }}
         >
           <div className='inline-block text-right mb-5'>
-            <Button caption='2024' flip={flipCard.button} />
+            <Button
+              caption='2024'
+              flip={flipCard.button}
+            />
           </div>
 
           <h4 className='mb-9 font-bold text-2xl text-brand-color'>
-            Web site 1
+            {projectName}
           </h4>
 
           <p>
@@ -51,7 +54,11 @@ function ProjectCard({ flip = false }) {
             augue ac libero rhoncus, vel mattis dolor dictum.
           </p>
         </div>
-        <img src={VertLine} className='max-h-[500px] inline' alt='Line' />
+        <img
+          src={VertLine}
+          className='max-h-[500px] inline'
+          alt='Line'
+        />
       </div>
 
       <img

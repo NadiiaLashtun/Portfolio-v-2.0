@@ -6,7 +6,10 @@ function TeamProjects() {
   return (
     <section className='relative pt-16 px-6 pb-32'>
       <div className=' absolute top-[17%] left-0 right-0 w-full h-[40%] -z-10'>
-        <BackgroundSquare width='100%' height='100%' />
+        <BackgroundSquare
+          width='100%'
+          height='100%'
+        />
       </div>
 
       <h3 className='h3-title'>

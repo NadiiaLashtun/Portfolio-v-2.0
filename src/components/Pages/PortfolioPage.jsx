@@ -16,16 +16,26 @@ function Portfolio() {
         <h2 className='h2-title absolute right-[1%] top-[29%] text-right'>
           Portfolio <br /> <span className='font-Montserrat'>/</span>
         </h2>
-        <BackgroundText text='portfolio' left='55%' top='22%' />
-        <ProjectCard />
+        <BackgroundText
+          text='portfolio'
+          left='55%'
+          top='22%'
+        />
+        <ProjectCard projectName={"Trevland"} />
         <ProjectCard flip={true} />
         <ProjectCard />
       </div>
       <div className='inline-block mx-auto pt-20'>
-        <Button caption='More projects' active={false} />
+        <Button
+          caption='More projects'
+          active={false}
+        />
       </div>
       <div className=' absolute bottom-[10%] left-[2%] w-[20%] h-[35%]'>
-        <BackgroundSquare width='100%' height='100%' />
+        <BackgroundSquare
+          width='100%'
+          height='100%'
+        />
       </div>
     </section>
   );

@@ -32,14 +32,22 @@ function SkillsPage() {
         <div className='space-y-5'>
           {skills1.map((skill, index) => {
             return (
-              <Skill name={skill.name} percent={skill.count} key={index} />
+              <Skill
+                name={skill.name}
+                percent={skill.count}
+                key={index}
+              />
             );
           })}
         </div>
         <div className='space-y-5'>
           {skills2.map((skill, index) => {
             return (
-              <Skill name={skill.name} percent={skill.count} key={index} />
+              <Skill
+                name={skill.name}
+                percent={skill.count}
+                key={index}
+              />
             );
           })}
         </div>
@@ -47,17 +55,32 @@ function SkillsPage() {
 
       <div className='w-full flex justify-end'>
         <div className='max-w-56 grid grid-rows-2 grid-cols-2 gap-8 pr-[60px] border-r border-brand-color'>
-          <img src={VSCode} alt='VS Code' />
-          <img src={Figma} alt='Figma' />
-          <img src={PS} alt='Photoshop' />
-          <img src={PR} alt='Adobe Premier' />
+          <img
+            src={VSCode}
+            alt='VS Code'
+          />
+          <img
+            src={Figma}
+            alt='Figma'
+          />
+          <img
+            src={PS}
+            alt='Photoshop'
+          />
+          <img
+            src={PR}
+            alt='Adobe Premier'
+          />
         </div>
       </div>
 
       <h2 className='absolute left-0 top-[3%] md:top-[70%] bottom-[-12%] md:bottom-[-10%] text-[110px] md:text-[140px] text-left font-bold'>
         Skills
       </h2>
-      <BackgroundText text='skills' bottom='-12%' />
+      <BackgroundText
+        text='skills'
+        bottom='-12%'
+      />
       <div className='absolute -bottom-[16%] left-0 w-[20%] h-[20%] md:h-[40%]'>
         <BackgroundSquare />
       </div>
