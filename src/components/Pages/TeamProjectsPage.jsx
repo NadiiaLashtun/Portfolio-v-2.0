@@ -1,4 +1,4 @@
-import TeamProjectsInfo from "../data/TeamProjectsInfo";
+import { teamProjectsInfo } from "../data/ProjectsInfo";
 import BackgroundSquare from "../UI/BackgroundSquare";
 import TeamCard from "../UI/TeamCard";
 /**/
@@ -16,7 +16,7 @@ function TeamProjects() {
         <span className='text-brand-color'>Design &</span> Team projects
       </h3>
       <div className='flex justify-center gap-14 sm:gap-8 flex-wrap'>
-        {TeamProjectsInfo.map((project, index) => {
+        {teamProjectsInfo.map((project, index) => {
           return (
             <TeamCard
               title={project.name}
