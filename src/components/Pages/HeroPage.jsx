@@ -1,11 +1,11 @@
-import Button from "../UI/Button";
-import SocialList from "../UI/SocialMedia/SocialList";
-import BackgroundText from "../UI/BackgroundText";
-import BackgroundSquare from "../UI/BackgroundSquare";
-import Wrapper from "../Wrapper";
-import HeroImg from "../../assets/hero-img.png";
-import ArrowDown from "../../assets/arrow-down.svg";
-import Header from "../Pages/Header";
+import Button from '../UI/Button';
+import SocialList from '../UI/SocialMedia/SocialList';
+import BackgroundText from '../UI/BackgroundText';
+import BackgroundSquare from '../UI/BackgroundSquare';
+import Wrapper from '../Wrapper';
+import HeroImg from '../../assets/hero-img.png';
+import ArrowDown from '../../assets/arrow-down.svg';
+import Header from '../Pages/Header';
 
 function HeroPage() {
   return (
@@ -51,7 +51,6 @@ function HeroPage() {
               From idea to interactive — I build experiences users love. Fast,
               modern, and made to impress. Your vision, my code. Let’s build
               something amazing together!
-              {/* let’s make it unforgettable. */}
             </p>
             <a href='#contacts-page'>
               <Button
@@ -85,10 +84,7 @@ function HeroPage() {
           </div>
           <div>
             <div className='absolute left-1/2 -translate-x-1/2 -bottom-4 z-20'>
-              <SocialList
-                color='brand-color'
-                hoverColor='brand-dark-color'
-              />
+              <SocialList />
             </div>
           </div>
         </div>
@@ -98,10 +94,3 @@ function HeroPage() {
 }
 
 export default HeroPage;
-
-// <div className='absolute left-1/2 -translate-x-1/2 -bottom-4 before:content-[""] before:absolute before:top-1/2 before:right-0 before:h-[2px] before:bg-black before:w-[calc(50%-60px)] after:content-[""] after:absolute after:top-1/2 after:right-0 after:h-[2px] after:bg-black after:w-[calc(50%-60px)]'>
-//               <SocialList
-//                 color='brand-color'
-//                 hoverColor='brand-dark-color'
-//               />
-//             </div>

@@ -1,21 +1,19 @@
-function SocialItem({ name, link, Icon, color, hoverColor }) {
-  console.log("color = " + color + " hoverColor = " + hoverColor);
-  hoverColor = "red";
+function SocialItem({ name, link, Icon, color = 'text-brand-color' }) {
   return (
-    <a
-      href={link}
-      className='w-7 h-7 group'
-      target='_blank'
-    >
-      <Icon
-        className={
-          console.log(
-            `w-full h-full text-${color} group-hover:text-${hoverColor} transition-colors duration-300`
-          ) +
-          ` w-full h-full text-${color} hover:text-${hoverColor} transition-colors duration-300`
-        }
-      />
-    </a>
+    <div className='relative'>
+      <div className='absolute inset-0 bg-text-white-color/80 rounded-full filter blur-sm'></div>
+      <a
+        href={link}
+        target='_blank'
+        rel='noreferrer'
+        className='w-7 h-7'
+        title={name}
+      >
+        <Icon
+          className={`${color} transition duration-500 drop-shadow-2xl hover:scale-110 hover:text-black`}
+        />
+      </a>
+    </div>
   );
 }
 

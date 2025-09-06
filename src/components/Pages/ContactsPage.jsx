@@ -1,7 +1,7 @@
-import BackgroundText from "../UI/BackgroundText";
-import SocialList from "../UI/SocialMedia/SocialList";
-import Phone from "../../assets/phone.svg";
-import Mail from "../../assets/mail.svg";
+import BackgroundText from '../UI/BackgroundText';
+import SocialList from '../UI/SocialMedia/SocialList';
+import Phone from '../../assets/phone.svg';
+import Mail from '../../assets/mail.svg';
 
 function ContactsPage() {
   return (
@@ -12,35 +12,32 @@ function ContactsPage() {
       <div className='w-1/3 h-[1px] absolute top-[60px] left-1/2 -translate-x-1/2 bg-black'></div>
 
       <div className='flex justify-center pt-7'>
-        <SocialList color='text-black' />
+        <SocialList color='text-brand-color' />
       </div>
       <div className='flex justify-center lg:justify-end pt-12 lg:pt-0'>
         <div className='flex flex-col gap-4 mb-20 '>
-          <div className='flex items-center gap-3'>
+          <a
+            href='tel:+380982895423'
+            className='flex items-center gap-3 duration-500 hover:text-primary-color'
+          >
             <img
               src={Phone}
               alt='Phone'
             />
-            <a
-              href='tel:+380982895423'
-              className='duration-500 hover:text-primary-color'
-            >
-              +38(098)-289-54-23
-            </a>
-          </div>
-          <div className='flex items-center group gap-3'>
+            +38(098)-289-54-23
+          </a>
+
+          <a
+            href='mailto:nadezhda.lashtun@gmail.com'
+            className='flex items-center gap-3 duration-500 hover:text-primary-color'
+          >
             <img
               src={Mail}
               alt='Email'
-              className='transition duration-500 group-hover:brightness-125'
+              className='transition duration-500 group-hover:brightness-125  group-hover:text-primary-color'
             />
-            <a
-              href='mailto:nadezhda.lashtun@gmail.com'
-              className='duration-500 group-hover:text-primary-color'
-            >
-              nadezhda.lashtun@gmail.com
-            </a>
-          </div>
+            nadezhda.lashtun@gmail.com
+          </a>
         </div>
       </div>
 
@@ -57,5 +54,3 @@ function ContactsPage() {
 }
 
 export default ContactsPage;
-
-/*translate-x-[60%]*/
