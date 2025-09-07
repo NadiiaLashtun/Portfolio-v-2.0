@@ -4,47 +4,53 @@
 
 @layer base {
   @font-face {
-    font-family: "Amsterdam-four";
-    src: url(./fonts/amsterdam-four.ttf) format("truetype");
+    font-family: 'Amsterdam-four';
+    src: url(./fonts/amsterdam-four.ttf) format('truetype');
     font-weight: 400;
   }
 
   @font-face {
-    font-family: "Montserrat";
-    src: url(./fonts/Montserrat-Regular.ttf) format("truetype");
+    font-family: 'Montserrat';
+    src: url(./fonts/Montserrat-Regular.ttf) format('truetype');
     font-weight: 400;
   }
 
   @font-face {
-    font-family: "Montserrat";
-    src: url(./fonts/Montserrat-Bold.ttf) format("truetype");
+    font-family: 'Montserrat';
+    src: url(./fonts/Montserrat-Bold.ttf) format('truetype');
     font-weight: 700;
   }
 
   @font-face {
-    font-family: "MontserratAlternates";
-    src: url(./fonts/MontserratAlternates-Regular.ttf) format("truetype");
+    font-family: 'MontserratAlternates';
+    src: url(./fonts/MontserratAlternates-Regular.ttf) format('truetype');
     font-weight: 400;
   }
 
   @font-face {
-    font-family: "MontserratAlternates";
-    src: url(./fonts/MontserratAlternates-SemiBold.ttf) format("truetype");
+    font-family: 'MontserratAlternates';
+    src: url(./fonts/MontserratAlternates-SemiBold.ttf) format('truetype');
     font-weight: 600;
   }
 
   @font-face {
-    font-family: "MontserratAlternates";
-    src: url(./fonts/MontserratAlternates-Bold.ttf) format("truetype");
+    font-family: 'MontserratAlternates';
+    src: url(./fonts/MontserratAlternates-Bold.ttf) format('truetype');
     font-weight: 700;
   }
 
   html {
-    font-family: "Montserrat", system-ui, Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', system-ui, Arial, Helvetica, sans-serif;
     font-weight: 400;
     line-height: 1.5;
     background-color: #efeeec;
     overflow-x: hidden;
+  }
+
+  @screen md {
+    html {
+      scroll-behavior: smooth;
+    }
   }
 
   .h2-title {
@@ -59,7 +65,6 @@
 * {
   margin: 0;
   padding: 0;
-  scroll-behavior: smooth;
 }
 
 body {
