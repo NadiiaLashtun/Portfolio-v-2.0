@@ -8,7 +8,7 @@ import { soloProjectsInfo } from '../data/ProjectsInfo';
 function Portfolio() {
   return (
     <section
-      className='relative pt-[120px] pb-[60px] px-[40px]'
+      className='relative pt-[120px] pb-[60px] px-[30px] sm:px-[60px]'
       id='portfolio-page'
     >
       <h3 className='h3-title'>Portfolio</h3>

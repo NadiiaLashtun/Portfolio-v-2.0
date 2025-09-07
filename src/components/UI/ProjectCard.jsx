@@ -66,7 +66,7 @@ function ProjectCard({
         <img
           src={img}
           alt='Project'
-          className='w-full object-contain border-2 border-secondary-color'
+          className='w-full object-contain border border-text-color shadow-lg'
         />
       </a>
     </div>
