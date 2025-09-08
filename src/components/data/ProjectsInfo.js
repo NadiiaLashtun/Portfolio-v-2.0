@@ -39,7 +39,7 @@ export const teamProjectsInfo = [
     netlify: 'https://color-compass-v49-team-16.netlify.app/',
     github: 'https://github.com/chingu-voyages/v49-tier2-team-16',
     description:
-      'Color Compass – Your AI-Powered Color Assistant. Pick a base color and get harmonious complementary palettes with smart suggestions for design, fashion, decor, or any creative project.',
+      'Your AI-Powered Color Assistant. Pick a base color and get harmonious complementary palettes with smart suggestions for design, fashion, decor, or any creative project.',
   },
   {
     name: 'Dino World',
