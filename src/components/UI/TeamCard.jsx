@@ -3,8 +3,8 @@ import HorLine from '../../assets/hor-line.svg';
 
 function TeamCard({ title, img, descr, netlify, github }) {
   return (
-    <div className='flex flex-col items-center w-[90%] sm:w-1/3'>
-      <div className='relative mb-6 max-w-[433px] max-h-[326px] shadow-lg cursor-pointer'>
+    <div className='flex flex-col items-center max-w-[400px]'>
+      <div className='relative mb-6 max-h-[280px] shadow-lg cursor-pointer'>
         <a
           href={netlify}
           target='_blank'
@@ -29,7 +29,7 @@ function TeamCard({ title, img, descr, netlify, github }) {
         className='mb-9'
         alt='Line'
       />
-      <p>{descr}</p>
+      <p className='break-words w-full'>{descr}</p>
     </div>
   );
 }

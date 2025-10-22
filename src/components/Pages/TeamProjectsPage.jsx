@@ -1,6 +1,7 @@
-import { teamProjectsInfo } from "../data/ProjectsInfo";
-import BackgroundSquare from "../UI/BackgroundSquare";
-import TeamCard from "../UI/TeamCard";
+import { teamProjectsInfo } from '../data/ProjectsInfo';
+import BackgroundSquare from '../UI/BackgroundSquare';
+import TeamCard from '../UI/TeamCard';
+import Slider from '../UI/Slider';
 /**/
 function TeamProjects() {
   return (
@@ -13,9 +14,10 @@ function TeamProjects() {
       </div>
 
       <h3 className='h3-title'>
-        <span className='text-brand-color'>Design &</span> Team projects
+        <span className='text-brand-color'>Team</span> projects
       </h3>
-      <div className='flex justify-center gap-14 sm:gap-8 flex-wrap'>
+
+      <Slider slidesPerView={2}>
         {teamProjectsInfo.map((project, index) => {
           return (
             <TeamCard
@@ -28,7 +30,7 @@ function TeamProjects() {
             />
           );
         })}
-      </div>
+      </Slider>
     </section>
   );
 }
