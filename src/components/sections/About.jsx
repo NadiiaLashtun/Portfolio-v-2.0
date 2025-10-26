@@ -1,4 +1,4 @@
-import Button from '../UI/Button';
+import Button from '../UI/buttons/Button';
 import AboutImg from '../../assets/about-img.png';
 import BackgroundText from '../UI/BackgroundText';
 import BackgroundSquare from '../UI/BackgroundSquare';

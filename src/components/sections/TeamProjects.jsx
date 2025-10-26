@@ -1,6 +1,6 @@
 import { teamProjectsInfo } from '../data/ProjectsInfo';
 import BackgroundSquare from '../UI/BackgroundSquare';
-import TeamCard from '../UI/TeamCard';
+import TeamCard from '../UI/cards/TeamCard';
 import Slider from '../UI/Slider';
 /**/
 function TeamProjects() {

@@ -1,9 +1,10 @@
-import ProjectCard from '../UI/ProjectCard';
+import ProjectCard from '../UI/cards/ProjectCard';
 import Img from '../../assets/img.png';
-import Button from '../UI/Button';
+import Button from '../UI/buttons/Button';
 import BackgroundText from '../UI/BackgroundText';
 import BackgroundSquare from '../UI/BackgroundSquare';
 import { soloProjectsInfo } from '../data/ProjectsInfo';
+import { Link } from 'react-router-dom';
 
 function Portfolio() {
   return (
@@ -39,10 +40,9 @@ function Portfolio() {
         </div>
       </div>
       <div className='inline-block mx-auto pt-20'>
-        <Button
-          caption='More projects'
-          active={false}
-        />
+        <Link to='projects'>
+          <Button caption='More projects' />
+        </Link>
       </div>
       <div className=' absolute bottom-[10%] left-[2%] w-[20%] h-[35%]'>
         <BackgroundSquare

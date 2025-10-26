@@ -1,19 +1,19 @@
 const menu = [
   {
     caption: 'About me',
-    link: '#about-page',
+    link: '/#about-page',
   },
   {
     caption: 'Skills',
-    link: '#skills-page',
+    link: '/#skills-page',
   },
   {
     caption: 'Portfolio',
-    link: '#portfolio-page',
+    link: '/portfolio',
   },
   {
     caption: 'Contacts',
-    link: '#contacts-page',
+    link: '/#contacts-page',
   },
 ];
 

@@ -1,4 +1,4 @@
-import Arrow from '../../assets/nav-arrow.svg?react';
+import Arrow from '../../../assets/nav-arrow.svg?react';
 
 function NavButton({ flip = false, className = '' }) {
   return (

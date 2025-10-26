@@ -1,5 +1,5 @@
-import Button from './Button';
-import HorLine from '../../assets/hor-line.svg';
+import Button from '../buttons/Button';
+import HorLine from '../../../assets/hor-line.svg';
 
 function TeamCard({ title, img, descr, netlify, github }) {
   return (

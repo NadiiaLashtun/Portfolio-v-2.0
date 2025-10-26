@@ -1,4 +1,4 @@
-import Arrow from '../../assets/arrow.svg';
+import Arrow from '../../../assets/arrow.svg';
 function Button({ caption, flip = false, active = true }) {
   return (
     <button

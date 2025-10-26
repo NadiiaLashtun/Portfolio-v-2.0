@@ -1,16 +1,15 @@
-import Button from '../UI/Button';
-import SocialList from '../UI/SocialMedia/SocialList';
+import Button from '../UI/buttons/Button';
+import SocialList from '../UI/socialMedia/SocialList';
 import BackgroundText from '../UI/BackgroundText';
 import BackgroundSquare from '../UI/BackgroundSquare';
 import Wrapper from '../Wrapper';
 import HeroImg from '../../assets/hero-img.png';
 import ArrowDown from '../../assets/arrow-down.svg';
-import Header from '../Pages/Header';
+import Header from './Header';
 
 function HeroPage() {
   return (
     <>
-      <Header />
       <section className='min-h-[calc(100vh-64px)] relative h-full p-[30px] sm:p-[60px] flex flex-col items-center gap-5 sm:flex-row sm:gap-3'>
         <BackgroundText
           text='web'

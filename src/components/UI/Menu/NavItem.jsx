@@ -1,9 +1,13 @@
+import { HashLink } from 'react-router-hash-link';
+
 function NavItem({ caption, link }) {
-  console.log(link);
   return (
-    <a className='duration-500 hover:text-brand-color' href={link}>
+    <HashLink
+      className='duration-500 hover:text-brand-color'
+      to={link}
+    >
       {caption}
-    </a>
+    </HashLink>
   );
 }
 

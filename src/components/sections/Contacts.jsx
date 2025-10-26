@@ -1,5 +1,5 @@
 import BackgroundText from '../UI/BackgroundText';
-import SocialList from '../UI/SocialMedia/SocialList';
+import SocialList from '../UI/socialMedia/SocialList';
 import Phone from '../../assets/phone.svg';
 import Mail from '../../assets/mail.svg';
 
