@@ -9,7 +9,7 @@ const menu = [
   },
   {
     caption: 'Portfolio',
-    link: '/portfolio',
+    link: '/projects',
   },
   {
     caption: 'Contacts',
