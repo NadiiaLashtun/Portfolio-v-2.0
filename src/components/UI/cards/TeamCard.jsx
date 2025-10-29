@@ -4,7 +4,7 @@ import HorLine from '../../../assets/hor-line.svg';
 function TeamCard({ title, img, descr, netlify, github }) {
   return (
     <div className='flex flex-col items-center max-w-[360px]'>
-      <div className='relative w-full mb-6 pb-[72%] shadow-lg cursor-pointer overflow-hidden'>
+      <div className='relative w-full mb-6 pb-[72%] shadow-lg cursor-pointer '>
         <a
           href={netlify}
           target='_blank'
