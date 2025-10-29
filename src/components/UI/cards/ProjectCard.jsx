@@ -17,12 +17,12 @@ function ProjectCard({
       {/* Card info */}
       <div
         className={`relative md:w-1/2 flex items-start 
-          before:content-[''] before:absolute before:top-0 before:bottom-0 before:w-[2px] before:bg-black
-          after:content-[''] after:absolute after:top-0 after:w-[10px] after:h-[10px] after:bg-black after:rounded-full
+          before:content-[''] before:absolute before:top-0 before:bottom-0 before:w-px before:bg-black
+          after:content-[''] after:absolute after:top-0 after:w-[7px] after:h-[7px] after:bg-black after:rounded-full
           ${
             flip
-              ? 'pl-12 md:pl-0 before:left-0 md:before:-left-10 lg:before:-left-20 after:left-[-4.2px] md:after:-left-[43.2px] lg:after:-left-[83.2px] items-end min-h-[400px] '
-              : 'pr-12 md:pr-0 before:right-0 md:before:-right-10 lg:before:-right-20 after:right-[-3.8px] md:after:-right-[44.2px] lg:after:-right-[84.2px] min-h-[260px] md:min-h-[340px]'
+              ? 'pl-12 md:pl-0 before:left-0 md:before:-left-10 lg:before:-left-20 after:left-[-3px] md:after:-left-[43px] lg:after:-left-[83px] items-end min-h-[400px] '
+              : 'pr-12 md:pr-0 before:right-0 md:before:-right-10 lg:before:-right-20 after:right-[-2.5px] md:after:-right-[43px] lg:after:-right-[83px] min-h-[260px] md:min-h-[340px]'
           }`}
       >
         <div

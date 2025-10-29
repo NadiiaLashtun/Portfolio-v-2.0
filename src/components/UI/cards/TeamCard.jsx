@@ -1,5 +1,4 @@
 import Button from '../buttons/Button';
-import HorLine from '../../../assets/hor-line.svg';
 
 function TeamCard({ title, img, descr, netlify, github }) {
   return (
@@ -17,7 +16,6 @@ function TeamCard({ title, img, descr, netlify, github }) {
           />
         </a>
       </div>
-
       <div className='mb-5 mx-auto'>
         <a
           href={github}
@@ -27,12 +25,12 @@ function TeamCard({ title, img, descr, netlify, github }) {
           <Button caption={title} />
         </a>
       </div>
-
-      <img
-        src={HorLine}
-        className='mb-9'
-        alt='Line'
-      />
+      <div className='relative w-[90%]'>
+        <div
+          className={`h-px bg-text-color mb-9
+                      before:content-[''] before:bg-text-color before:w-[7px] before:h-[7px] before:rounded-full before:absolute before:left-0 before:-top-[3px]`}
+        ></div>
+      </div>
       <p className='break-words w-full'>{descr}</p>
     </div>
   );
