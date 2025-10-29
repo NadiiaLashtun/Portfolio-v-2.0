@@ -4,8 +4,7 @@ import BackgroundText from '../UI/BackgroundText';
 import BackgroundSquare from '../UI/BackgroundSquare';
 import Wrapper from '../Wrapper';
 import HeroImg from '../../assets/hero-img.png';
-import ArrowDown from '../../assets/arrow-down.svg';
-import Header from './Header';
+import Arrow from '../UI/Arrow';
 
 function HeroPage() {
   return (
@@ -61,7 +60,7 @@ function HeroPage() {
         </div>
 
         <div
-          className='relative w-full md:w-1/3 border-black min-h-[24rem] sm:min-h-[38rem] self-end  
+          className='relative w-full h-full md:w-1/3 border-black min-h-[24rem] sm:min-h-[38rem] self-end  
           before:absolute before:bottom-0 before:right-0 before:h-[1px] before:bg-black before:w-[calc(50%-theme(space.20))]
           after:absolute after:bottom-0 after:left-0 after:h-[1px] after:bg-black after:w-[calc(50%-theme(space.20))]
             "'
@@ -72,11 +71,7 @@ function HeroPage() {
             className='absolute left-[16%] md:left-[5%] -bottom-16 max-h-[120%]  z-10'
             alt='Main Photo'
           />
-          <img
-            src={ArrowDown}
-            className='absolute right-[-10px] bottom-[40%] h-1/2 '
-            alt='Arrow'
-          />
+          <Arrow position='absolute -right-[3px] top-[10%] h-1/2' />
           {/* Square */}
           <div className='absolute left-1/2 -translate-x-1/2 -bottom-12 w-full lg:w-[80%] xl:w-[45%] h-[98%] -z-20 lg:z-0 md:h-[94%]'>
             <BackgroundSquare />

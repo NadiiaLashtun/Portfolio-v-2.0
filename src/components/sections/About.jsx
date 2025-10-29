@@ -2,7 +2,7 @@ import Button from '../UI/buttons/Button';
 import AboutImg from '../../assets/about-img.png';
 import BackgroundText from '../UI/BackgroundText';
 import BackgroundSquare from '../UI/BackgroundSquare';
-import ArrowDown from '../../assets/arrow-down.svg';
+import Arrow from '../UI/Arrow';
 
 function AboutPage() {
   return (
@@ -14,12 +14,8 @@ function AboutPage() {
         <BackgroundSquare />
       </div>
 
-      <div className='relative w-full md:w-1/2 flex flex-col gap-9 text-left pl-12 lg:pl-24 p-8 mx-auto'>
-        <img
-          src={ArrowDown}
-          className='absolute h-1/2 left-[-2%] bottom-[40%] top-1/2 -translate-y-1/2'
-          alt='Arrow'
-        />
+      <div className=' my relative w-full md:w-1/2 flex flex-col gap-9 text-left pl-12 lg:pl-24 p-8 mx-auto'>
+        <Arrow position='absolute -left-[2px]' />
         <p>
           I am a Frontend Developer with a strong IT background, experienced in
           creating clean, maintainable, and high-performing web applications. My
