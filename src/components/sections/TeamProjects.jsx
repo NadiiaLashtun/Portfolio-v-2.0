@@ -5,7 +5,7 @@ import Slider from '../UI/Slider';
 /**/
 function TeamProjects() {
   return (
-    <section className='relative pt-16 px-6 pb-8 md:pb-32'>
+    <section className='relative px-6 py-8 sm:p-16'>
       <div className=' absolute top-[17%] left-0 right-0 w-full h-[40%] -z-10'>
         <BackgroundSquare
           width='100%'

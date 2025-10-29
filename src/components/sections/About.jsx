@@ -7,7 +7,7 @@ import ArrowDown from '../../assets/arrow-down.svg';
 function AboutPage() {
   return (
     <section
-      className='flex flex-col-reverse md:flex-row gap-14 lg:gap-20 max-h-full p-[30px] sm:p-[60px] lg:py-[120px] relative'
+      className='flex flex-col-reverse md:flex-row gap-14 lg:gap-20 max-h-full px-6 py-16 sm:p-16 lg:py-28 relative'
       id='about-page'
     >
       <div className='absolute top-[54%] sm:top-[50%] md:top-[4%] left-0 w-full md:w-[50%] h-[25%] md:h-[50%]'>

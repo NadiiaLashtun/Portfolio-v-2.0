@@ -6,12 +6,12 @@ import Mail from '../../assets/mail.svg';
 function ContactsPage() {
   return (
     <section
-      className='relative px-16 pt-16 bg-brand-color z-10'
+      className='relative px-6 py-8 sm:p-16 bg-brand-color z-10'
       id='contacts-page'
     >
       <div className='w-1/3 h-[1px] absolute top-[60px] left-1/2 -translate-x-1/2 bg-black'></div>
 
-      <div className='flex justify-center pt-7'>
+      <div className='flex justify-center pt-14 sm:pt-7'>
         <SocialList color='text-brand-color' />
       </div>
       <div className='flex justify-center lg:justify-end pt-12 lg:pt-0'>

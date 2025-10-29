@@ -58,7 +58,7 @@
   }
 
   .h3-title {
-    @apply mb-20 font-Montserrat-Alternates font-bold text-4xl;
+    @apply mb-16 md:mb-20 font-Montserrat-Alternates font-bold text-4xl;
   }
 }
 

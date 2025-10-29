@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 function Portfolio() {
   return (
     <section
-      className='relative pt-[120px] pb-[60px] px-[30px] sm:px-[60px]'
+      className='relative px-6 py-16 sm:p-16 lg:py-28'
       id='portfolio-page'
     >
       <h3 className='h3-title'>Portfolio</h3>

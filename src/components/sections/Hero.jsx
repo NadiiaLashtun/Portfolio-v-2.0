@@ -10,7 +10,7 @@ import Header from './Header';
 function HeroPage() {
   return (
     <>
-      <section className='min-h-[calc(100vh-64px)] relative h-full p-[30px] sm:p-[60px] flex flex-col items-center gap-5 sm:flex-row sm:gap-3'>
+      <section className='min-h-[calc(100vh-64px)] relative h-full px-6 py-8 sm:p-16 flex flex-col items-center gap-5 sm:flex-row sm:gap-3'>
         <BackgroundText
           text='web'
           left='30%'

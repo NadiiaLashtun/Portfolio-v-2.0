@@ -1,29 +1,29 @@
-import Skill from "../UI/Skill";
-import VSCode from "../../assets/vs-code.png";
-import Figma from "../../assets/figma.png";
-import PS from "../../assets/PS.png";
-import PR from "../../assets/PR.png";
-import BackgroundText from "../UI/BackgroundText";
-import BackgroundSquare from "../UI/BackgroundSquare";
+import Skill from '../UI/Skill';
+import VSCode from '../../assets/vs-code.png';
+import Figma from '../../assets/figma.png';
+import PS from '../../assets/PS.png';
+import PR from '../../assets/PR.png';
+import BackgroundText from '../UI/BackgroundText';
+import BackgroundSquare from '../UI/BackgroundSquare';
 
 const skills1 = [
-  { name: "HTML+CSS", count: "90%" },
-  { name: "Flexbox", count: "80%" },
-  { name: "Bootstrap", count: "60%" },
-  { name: "Tailwind", count: "50%" },
+  { name: 'HTML+CSS', count: '90%' },
+  { name: 'Flexbox', count: '80%' },
+  { name: 'Bootstrap', count: '60%' },
+  { name: 'Tailwind', count: '50%' },
 ];
 
 const skills2 = [
-  { name: "JavaScript", count: "60%" },
-  { name: "React", count: "40%" },
-  { name: "Figma", count: "90%" },
-  { name: "Git", count: "80%" },
+  { name: 'JavaScript', count: '60%' },
+  { name: 'React', count: '40%' },
+  { name: 'Figma', count: '90%' },
+  { name: 'Git', count: '80%' },
 ];
 
 function SkillsPage() {
   return (
     <section
-      className='relative p-[60px] font-Montserrat-Alternates'
+      className='relative px-6 py-8 sm:p-16 font-Montserrat-Alternates'
       id='skills-page'
     >
       <div className='w-1/3 h-[1px] absolute top-0 left-1/2 -translate-x-1/2 bg-black'></div>
