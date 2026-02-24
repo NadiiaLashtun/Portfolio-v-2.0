@@ -7,6 +7,11 @@ function NavButton({ flip = false, className = '' }) {
                   ${className} 
                 duration-500 hover:text-brand-color drop-shadow-black
                 `}
+      aria-label={
+        className.slice(4) === 'prev'
+          ? 'Slide to previous project'
+          : 'Slide to next project'
+      }
     >
       <Arrow className='hover:animate-bounce' />
     </button>

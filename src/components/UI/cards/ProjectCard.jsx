@@ -37,12 +37,13 @@ function ProjectCard({
           >
             <Button
               caption='2025'
+              label={'View source code of ' + projectName + ' on GitHub'}
               flip={flip}
             />
           </a>
-          <h4 className='mb-4 font-bold text-2xl text-brand-color'>
+          <h3 className='mb-4 font-bold text-2xl text-brand-color'>
             {projectName}
-          </h4>
+          </h3>
           <p className='text-justify'>{descr}</p>{' '}
         </div>
 
@@ -60,6 +61,7 @@ function ProjectCard({
         href={netlify}
         target='__blank'
         rel='noreferrer'
+        aria-label={'Open live demo of ' + projectName + 'project'}
         className='w-full md:w-1/2'
       >
         <img

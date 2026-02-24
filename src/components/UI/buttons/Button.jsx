@@ -1,5 +1,5 @@
 import Arrow from '../../../assets/arrow.svg';
-function Button({ caption, flip = false, active = true }) {
+function Button({ caption, flip = false, active = true, label = '' }) {
   return (
     <button
       disabled={!active}
@@ -9,6 +9,7 @@ function Button({ caption, flip = false, active = true }) {
           : 'opacity-50 cursor-not-allowed'
       }
         group flex items-center gap-4 border-0 drop-shadow-black font-Amsterdam-four text-2xl sm:text-3xl`}
+      aria-label={label}
     >
       <div className={`${flip ? '-scale-x-100' : ''} text-nowrap`}>
         {caption}

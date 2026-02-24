@@ -13,9 +13,9 @@ function TeamProjects() {
         />
       </div>
 
-      <h3 className='h3-title'>
+      <h2 className='title-small'>
         <span className='text-brand-color'>Team</span> projects
-      </h3>
+      </h2>
 
       <Slider slidesPerView={2}>
         {teamProjectsInfo.map((project, index) => {

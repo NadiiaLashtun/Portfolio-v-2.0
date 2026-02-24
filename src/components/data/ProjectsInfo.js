@@ -1,10 +1,10 @@
 import MiamiCondoKings from '/src/assets/portfolio-projects/miami-condo-kings.jpg';
 import Trevland from '/src/assets/portfolio-projects/treveland.jpg';
 import Organik from '/src/assets/portfolio-projects/organik.jpg';
-import ColorCompass from '/src/assets/color-compass.jpg';
-import DinoWorld from '/src/assets/dino-world.jpg';
-import PRStatusBoard from '/src/assets/pr-status-board.jpg';
-import SaveBees from '/src/assets/bee.jpg';
+import ColorCompass from '/src/assets/portfolio-projects/team/color-compass.jpg';
+import DinoWorld from '/src/assets/portfolio-projects/team/dino-world.jpg';
+import PRStatusBoard from '/src/assets/portfolio-projects/team/pr-status-board.jpg';
+import SaveBees from '/src/assets/portfolio-projects/team/bee.jpg';
 
 export const soloProjectsInfo = [
   {

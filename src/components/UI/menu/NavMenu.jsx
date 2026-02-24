@@ -43,6 +43,7 @@ function NavMenu() {
                           : ''
                       }
                     `}
+          aria-label='Main menu'
           onClick={() => setOpenMobileMenu(!openMobileMenu)}
         >
           <span

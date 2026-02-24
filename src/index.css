@@ -7,36 +7,42 @@
     font-family: 'Amsterdam-four';
     src: url(./fonts/amsterdam-four.ttf) format('truetype');
     font-weight: 400;
+    font-display: swap;
   }
 
   @font-face {
     font-family: 'Montserrat';
     src: url(./fonts/Montserrat-Regular.ttf) format('truetype');
     font-weight: 400;
+    font-display: swap;
   }
 
   @font-face {
     font-family: 'Montserrat';
     src: url(./fonts/Montserrat-Bold.ttf) format('truetype');
     font-weight: 700;
+    font-display: swap;
   }
 
   @font-face {
     font-family: 'MontserratAlternates';
     src: url(./fonts/MontserratAlternates-Regular.ttf) format('truetype');
     font-weight: 400;
+    font-display: swap;
   }
 
   @font-face {
     font-family: 'MontserratAlternates';
     src: url(./fonts/MontserratAlternates-SemiBold.ttf) format('truetype');
     font-weight: 600;
+    font-display: swap;
   }
 
   @font-face {
     font-family: 'MontserratAlternates';
     src: url(./fonts/MontserratAlternates-Bold.ttf) format('truetype');
     font-weight: 700;
+    font-display: swap;
   }
 
   html {
@@ -57,7 +63,7 @@
     @apply font-Amsterdam-four text-[90px] sm:text-[100px] md:text-[110px] leading-[2.5] text-brand-color;
   }
 
-  .h3-title {
+  .title-small {
     @apply mb-16 md:mb-20 font-Montserrat-Alternates font-bold text-4xl;
   }
 }
