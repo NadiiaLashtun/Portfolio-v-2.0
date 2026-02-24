@@ -13,8 +13,17 @@ export default {
         'text-white-color': '#ffffff59', //light white
       },
 
+      backgroundImage: {
+        'arrow-gradient': 'linear-gradient(180deg, transparent, #E2A567)',
+      },
+
       dropShadow: {
         black: '0 4px 2px rgba(0, 0, 0, 0.25)',
+        white: [
+          '0 0 6px rgba(255, 255, 255, 1)',
+          '0 0 20px rgba(255, 255, 255, 1)',
+          '0 0 40px rgba(255, 255, 255, 1)',
+        ],
       },
 
       fontFamily: {
@@ -48,6 +57,17 @@ export default {
       animation: {
         'animate-bounce': 'bounce 1s 5',
       },
+
+      // keyframes: {
+      //   slide: {
+      //     '0%': { transform: 'translateY(-100%)' },
+      //     '100%': { transform: 'translateY(100%)' },
+      //   },
+      // },
+
+      // animation: {
+      //   slide: 'slide 1.5s linear infinite',
+      // },
 
       keyframes: {
         bounce: {

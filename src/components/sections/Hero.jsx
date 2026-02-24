@@ -71,7 +71,7 @@ function HeroPage() {
             className='absolute left-[16%] md:left-[5%] -bottom-16 max-h-[120%]  z-10'
             alt='Main Photo'
           />
-          <Arrow position='absolute -right-[3px] top-[10%] h-1/2' />
+          <Arrow position='absolute -right-[10px] top-[10%] h-1/2' />
           {/* Square */}
           <div className='absolute left-1/2 -translate-x-1/2 -bottom-12 w-full lg:w-[80%] xl:w-[45%] h-[98%] -z-20 lg:z-0 md:h-[94%]'>
             <BackgroundSquare />
