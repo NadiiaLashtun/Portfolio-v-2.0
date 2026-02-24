@@ -3,7 +3,7 @@ import SocialList from '../UI/socialMedia/SocialList';
 import BackgroundText from '../UI/BackgroundText';
 import BackgroundSquare from '../UI/BackgroundSquare';
 import Wrapper from '../Wrapper';
-import HeroImg from '../../assets/hero-img.png';
+import HeroImg from '../../assets/hero-img.webp';
 import Arrow from '../UI/Arrow';
 
 function HeroPage() {

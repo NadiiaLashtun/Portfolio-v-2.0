@@ -46,7 +46,7 @@ function Slider({
         >
           {children.map((slide, index) => (
             <SwiperSlide
-              className='pt-3 transition-all duration-700 ease-in-out opacity-40 
+              className='pt-3 transition-opacity duration-700 ease-in-out opacity-40 
                          flex justify-center
                          [&.swiper-slide-active]:opacity-100
                          lg:[&.swiper-slide-active]:justify-end

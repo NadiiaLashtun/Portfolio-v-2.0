@@ -14,6 +14,7 @@ function TeamCard({ title, img, descr, netlify, github }) {
             src={img}
             className='absolute top-0 left-0 w-full h-full object-cover transform duration-500 hover:scale-105 border border-text-color hover:brightness-110 shadow-lg'
             alt={title}
+            loading='lazy'
           />
         </a>
       </div>
