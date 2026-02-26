@@ -44,8 +44,8 @@ export const teamProjectsInfo = [
   {
     name: 'Color Compass',
     img: ColorCompass,
-    netlify: 'https://color-compass-v49-team-16.netlify.app/',
-    github: 'https://github.com/chingu-voyages/v49-tier2-team-16',
+    netlify: 'https://color-compass-project.netlify.app/',
+    github: 'https://github.com/NadiiaLashtun/Color-compass',
     description:
       'Your AI-Powered Color Assistant. Pick a base color and get harmonious complementary palettes with smart suggestions for design, fashion, decor, or any creative project.',
   },
@@ -69,7 +69,7 @@ export const teamProjectsInfo = [
     name: 'Save Bees',
     img: SaveBees,
     netlify: 'https://the-bee-saving-project.onrender.com/',
-    github: 'https://github.com/KseniiaRiabova/the-bee-saving-project',
+    github: 'https://github.com/NadiiaLashtun/Bee-saving-project',
     description:
       'This web app helps protect wild bees by letting users report bees in need and find local rescue opportunities. It offers a personal dashboard, data insights, and tips for bee conservation.',
   },
