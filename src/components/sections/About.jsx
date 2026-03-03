@@ -3,76 +3,81 @@ import AboutImg from '../../assets/about-img.png';
 import BackgroundText from '../UI/BackgroundText';
 import BackgroundSquare from '../UI/BackgroundSquare';
 import Arrow from '../UI/Arrow';
+import Wrapper from '../Wrapper';
 
 function AboutPage() {
   return (
     <section
-      className='flex flex-col-reverse md:flex-row gap-14 lg:gap-20 max-h-full px-6 py-16 sm:p-16 lg:py-28 relative'
+      className='max-h-full py-16 lg:py-28'
       id='about-page'
     >
-      <div className='absolute top-[54%] sm:top-[50%] md:top-[4%] left-0 w-full md:w-[50%] h-[25%] md:h-[50%]'>
-        <BackgroundSquare />
-      </div>
+      <Wrapper className='relative'>
+        <div className='flex flex-col-reverse md:flex-row gap-14 lg:gap-20'>
+          <div className='absolute top-[54%] sm:top-[50%] md:top-[4%] left-0 w-full md:w-[50%] h-[25%] md:h-[50%]'>
+            <BackgroundSquare />
+          </div>
 
-      <div className=' my relative w-full md:w-1/2 flex flex-col gap-9 text-left pl-12 lg:pl-24 p-8 mx-auto'>
-        <Arrow position='absolute -left-[2px]' />
-        <p>
-          I am a Frontend Developer with a strong IT background, experienced in
-          creating clean, maintainable, and high-performing web applications. My
-          goal is to deliver scalable and impactful solutions that combine clean
-          design with high functionality.
-        </p>
+          <div className=' my relative w-full md:w-1/2 flex flex-col gap-9 text-left pl-12 lg:pl-24 p-8 mx-auto'>
+            <Arrow position='absolute -left-[2px]' />
+            <p>
+              I am a Frontend Developer with a strong IT background, experienced
+              in creating clean, maintainable, and high-performing web
+              applications. My goal is to deliver scalable and impactful
+              solutions that combine clean design with high functionality.
+            </p>
 
-        <img
-          src={AboutImg}
-          className='max-w-72 '
-          alt='My Photo'
-        />
-        <a
-          href='/files/Lashtun_Nadezhda_Frontend_Developer_eng_CV.pdf'
-          download='Lashtun_Nadezhda_Frontend_Developer_CV.pdf'
-        >
-          <Button caption='Download CV' />
-        </a>
-      </div>
+            <img
+              src={AboutImg}
+              className='max-w-72 '
+              alt='My Photo'
+            />
+            <a
+              href='/files/Lashtun_Nadezhda_Frontend_Developer_eng_CV.pdf'
+              download='Lashtun_Nadezhda_Frontend_Developer_CV.pdf'
+            >
+              <Button caption='Download CV' />
+            </a>
+          </div>
 
-      <div className='w-full md:w-1/2'>
-        <h2 className='h2-title'>About</h2>
-        <BackgroundText
-          text='about'
-          top='-10%'
-          left='55%'
-        />
-        <div className='flex gap-4 lg:gap-8 text-left'>
-          <div className='flex gap-6 lg:gap-8 flex-wrap'>
-            <div className='flex-1 min-w-44'>
-              <h3 className='bg-text-white-color text-brand-color my-4'>
-                What I do:
-              </h3>
-              <ul className='space-y-5 lg:space-y-5 list-disc list-outside border-l-[1px] marker:text-brand-color border-brand-color pl-[14px]'>
-                <li className=''>
-                  Build responsive and user-friendly interfaces
-                </li>
-                <li>Work with UI/UX tools (Figma, Canva) </li>
-                <li>Collaborate in teams with Jira</li>
-                <li>Use version control (Git)</li>
-              </ul>
-            </div>
-            <div className='flex-1 min-w-44'>
-              <h3 className='bg-text-white-color text-brand-color my-4'>
-                I’ve completed:
-              </h3>
-              <ul className='space-y-5 lg:space-y-5 list-disc list-outside border-l-[1px] marker:text-brand-color border-brand-color pl-[14px]'>
-                <li>Several international team projects at Chingu</li>
-                <li>Specialized courses (SheCodes, Genius)</li>
-                <li>I speak English (B1), Czech (A2)</li>
-                <li>Open to remote opportunities</li>
-              </ul>
+          <div className='w-full md:w-1/2'>
+            <h2 className='h2-title'>About</h2>
+            <BackgroundText
+              text='about'
+              top='-10%'
+              left='55%'
+            />
+            <div className='flex gap-4 lg:gap-8 text-left'>
+              <div className='flex gap-6 lg:gap-8 flex-wrap'>
+                <div className='flex-1 min-w-44'>
+                  <h3 className='bg-text-white-color text-brand-color my-4'>
+                    What I do:
+                  </h3>
+                  <ul className='space-y-5 lg:space-y-5 list-disc list-outside border-l-[1px] marker:text-brand-color border-brand-color pl-[14px]'>
+                    <li className=''>
+                      Build responsive and user-friendly interfaces
+                    </li>
+                    <li>Work with UI/UX tools (Figma, Canva) </li>
+                    <li>Collaborate in teams with Jira</li>
+                    <li>Use version control (Git)</li>
+                  </ul>
+                </div>
+                <div className='flex-1 min-w-44'>
+                  <h3 className='bg-text-white-color text-brand-color my-4'>
+                    I’ve completed:
+                  </h3>
+                  <ul className='space-y-5 lg:space-y-5 list-disc list-outside border-l-[1px] marker:text-brand-color border-brand-color pl-[14px]'>
+                    <li>Several international team projects at Chingu</li>
+                    <li>Specialized courses (SheCodes, Genius)</li>
+                    <li>I speak English (B1), Czech (A2)</li>
+                    <li>Open to remote opportunities</li>
+                  </ul>
+                </div>
+              </div>
+              <p className='text-brand-color text-[110px] flex-grow-0'>/</p>
             </div>
           </div>
-          <p className='text-brand-color text-[110px] flex-grow-0'>/</p>
         </div>
-      </div>
+      </Wrapper>
     </section>
   );
 }

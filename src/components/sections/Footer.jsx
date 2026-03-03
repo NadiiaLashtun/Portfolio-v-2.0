@@ -1,6 +1,10 @@
+import Wrapper from '../Wrapper';
+
 function Footer() {
   return (
-    <footer className='p-[22px]'>&#169; 2024 Created by Nadiia Lashtun</footer>
+    <footer className='py-5'>
+      <Wrapper>&#169; 2024 Created by Nadiia Lashtun</Wrapper>
+    </footer>
   );
 }
 
