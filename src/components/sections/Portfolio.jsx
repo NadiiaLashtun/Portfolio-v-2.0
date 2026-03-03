@@ -25,7 +25,7 @@ function Portfolio() {
             top='22%'
           />
           <div className='flex flex-col gap-32'>
-            {soloProjectsInfo.map((project, index) => {
+            {soloProjectsInfo.slice(0, 3).map((project, index) => {
               return (
                 <ProjectCard
                   projectName={project.name}

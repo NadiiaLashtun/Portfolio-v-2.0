@@ -1,6 +1,8 @@
 import MiamiCondoKings from '/src/assets/portfolio-projects/miami-condo-kings.webp';
 import Trevland from '/src/assets/portfolio-projects/treveland.webp';
 import Organik from '/src/assets/portfolio-projects/organik.webp';
+import AIPoemGenerator from '/src/assets/portfolio-projects/ai-poem-generator.webp';
+import WorldClock from '/src/assets/portfolio-projects/world-clock.webp';
 import ColorCompass from '/src/assets/portfolio-projects/team/color-compass.jpg';
 import DinoWorld from '/src/assets/portfolio-projects/team/dino-world.jpg';
 import PRStatusBoard from '/src/assets/portfolio-projects/team/pr-status-board.jpg';
@@ -36,6 +38,28 @@ export const soloProjectsInfo = [
     github: 'https://github.com/NadiiaLashtun/Organik',
     description:
       'Organic products store focused on healthy and natural living. Offers fresh, eco-friendly food and everyday essentials. Supports sustainable farming and environmentally conscious choices.',
+    flip: false,
+  },
+
+  {
+    year: '2025',
+    name: 'AI poem generator',
+    img: AIPoemGenerator,
+    netlify: 'https://ai-poem-generator-en.netlify.app/',
+    github: 'https://github.com/NadiiaLashtun/AI-poem-generator',
+    description:
+      'AI-powered poetry app that creates unique verses from your ideas. Enter a phrase and receive original, creative poems instantly. Designed to inspire imagination and expressive writing.',
+    flip: false,
+  },
+
+  {
+    year: '2025',
+    name: 'World clock',
+    img: WorldClock,
+    netlify: 'https://world-clock-now.netlify.app/',
+    github: 'https://github.com/NadiiaLashtun/world-clock',
+    description:
+      'World clock app that lets you select a country and instantly see the current local time. Browse locations from a simple list and stay updated across time zones. Designed for global connections.',
     flip: false,
   },
 ];
